@@ -31,4 +31,4 @@ Vagrant.configure(2) do |config|
   
     node.vm.provision "shell", path: "bootstrap_kmaster.sh"
   
-  end
+end
