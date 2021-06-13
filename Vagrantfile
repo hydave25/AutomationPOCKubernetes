@@ -22,13 +22,5 @@ Vagrant.configure(2) do |config|
       v.memory  = 2048
       v.cpus    =  2
     end
-  
-  # node.vm.provider :libvirt do |v|
-  #    v.memory  = 2048
-  #    v.nested  = true
-  #    v.cpus    = 2
-  end
-  
     node.vm.provision "shell", path: "bootstrap_kmaster.sh"
-  
 end
