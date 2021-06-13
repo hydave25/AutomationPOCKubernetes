@@ -10,7 +10,7 @@ Vagrant.configure(2) do |config|
   # Kubernetes Master Server
   config.vm.define "kmaster1" do |node|
   
-    node.vm.box               = ""generic/ubuntu2010"
+    node.vm.box               = "generic/ubuntu2010"
     node.vm.box_check_update  = false
     node.vm.box_version       = "3.2.24"
     node.vm.hostname          = "kmaster1.example.com"
