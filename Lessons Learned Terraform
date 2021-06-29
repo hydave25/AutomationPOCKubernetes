@@ -5,3 +5,7 @@ aws_instance.kworker[0]: Still creating... [1m10s elapsed]
 aws_instance.kworker[0]: Still creating... [1m20s elapsed]
 aws_instance.kworker[0]: Still creating... [1m30s elapsed]
 Stopping operation...
+
+
+
+ccorrect path given though its asking password may be need to remove nohostkey or give password using -p "kubeadmin"
